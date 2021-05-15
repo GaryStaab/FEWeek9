@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- <script src="node_modules/@popperjs/core/dist/cjs/popper.js"></script> -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</head>
+
+<body class="container">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Mira & Mo Page</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-expanded="false" aria-label="toggle-navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="false" data-bs-toggle="dropdown" aria-expanded="false">
+                        Social Media
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="http://myface.com/" target="_blank">My Face</a></li>
+                        <li><a class="dropdown-item" href="https://www.aol.com/" target="_blank">AOL</a></li>
+                        <li><a class="dropdown-item" href="ttps://www.instagram.com/explore/tags/overworked/"
+                                target="_blank">Overwhelmed</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-lg-6">
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Breed</th>
+                        <th scope="col">Age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mowgli</td>
+                        <td>mutt</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Mirabelle</td>
+                        <td>Shepherd</td>
+                        <td>12</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-lg-6">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/IMG_4056.jpg" class="d-block w-100" alt="Miss Moo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/IMG_3138.JPG" class="d-block w-100" alt="Mowgli">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/IMG_3684.GIF" class="d-block w-100" alt="The pair">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
